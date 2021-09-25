@@ -1,1 +1,16 @@
 Deep Neural model to jointly extract entities and relations from a scientific abstract.
+
+
+HOW TO USE:
+First set the parameters (including path to various resources, TRAIN = True/False,  correctly in main.py.
+Then type: python3 main.py
+
+## Notes
+- To train SpERT.PL with SciBERT, download SciBERT from https://github.com/allenai/scibert 
+(under "PyTorch HuggingFace Models") and set "model_path" and "tokenizer_path" in the config file to point to the SciBERT directory.
+- Similarly you can use BioBERT from https://huggingface.co/dmis-lab/biobert-v1.1
+- BioBERT gives better results than SciBERT on ADE dataset.
+
+
+ACKNOWLEDGEMENT
+The code makes modifications to SpERT (https://github.com/lavis-nlp/spert/) to develop SpERT.PL which uses part-of-speech information and entity logits.
