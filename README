@@ -11,6 +11,10 @@ Then type: python3 main.py
 - Similarly you can use BioBERT from https://huggingface.co/dmis-lab/biobert-v1.1
 - BioBERT gives better results than SciBERT on ADE dataset.
 
+If you find our paper/code useful, please cite our paper:
+Santosh Tokala Yaswanth Sri Sai, Prantika Chakraborty, Sudakshina Dutta, Debarshi Kumar Sanyal and Partha Pratim Das, Joint Entity and Relation Extraction from Scientific Documents: Role of Linguistic Information and Entity Types. In 2nd Workshop on Extraction and Evaluation of Knowledge Entities from Scientific Documents (EEKE2021)
+at the ACM/IEEE Joint Conference on Digital Libraries 2021 (JCDL2021), Online.
+
 
 ACKNOWLEDGEMENT
 The code makes modifications to SpERT (https://github.com/lavis-nlp/spert/) to develop SpERT.PL which uses part-of-speech information and entity logits.
