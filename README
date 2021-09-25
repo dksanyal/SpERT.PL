@@ -2,7 +2,7 @@
 
 
 HOW TO USE:
-First set the parameters (including path to various resources, TRAIN = True/False,  correctly in main.py.
+First set the parameters (including path to various resources, TRAIN = True/False and other input options) correctly in main.py.
 Then type: python3 main.py
 
 ## Notes
