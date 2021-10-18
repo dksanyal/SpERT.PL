@@ -2,8 +2,10 @@
 
 
 HOW TO USE:
-First set the parameters (including path to various resources, TRAIN = True/False and other input options) correctly in main.py.
-Then type: python3 main.py
+1. Download and unzip CodeFinal.zip.
+2. Set the parameters (including path to various resources, TRAIN = True/False and other input options) correctly in main.py.
+3. Install the appropriate Python packages.
+4. Type: python3 main.py
 
 ## Notes
 - To train SpERT.PL with SciBERT, download SciBERT from https://github.com/allenai/scibert 
@@ -11,10 +13,11 @@ Then type: python3 main.py
 - Similarly you can use BioBERT from https://huggingface.co/dmis-lab/biobert-base-cased-v1.1
 - BioBERT gives better results than SciBERT on ADE dataset.
 
+CITATION:
 If you find our paper/code useful, please cite our paper:
 Santosh Tokala Yaswanth Sri Sai, Prantika Chakraborty, Sudakshina Dutta, Debarshi Kumar Sanyal and Partha Pratim Das, Joint Entity and Relation Extraction from Scientific Documents: Role of Linguistic Information and Entity Types. In 2nd Workshop on Extraction and Evaluation of Knowledge Entities from Scientific Documents (EEKE2021)
 at the ACM/IEEE Joint Conference on Digital Libraries 2021 (JCDL2021), Online.
 
 
-ACKNOWLEDGEMENT
+ACKNOWLEDGEMENT:
 The code makes modifications to SpERT (https://github.com/lavis-nlp/spert/) to develop SpERT.PL which uses part-of-speech information and entity logits.
